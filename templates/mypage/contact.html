@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% extends "parent.html" %}
+  {% block content %}
+</head>
+<body>
+      <h1>Kontakt</h1>
+      <ul>
+        {% for item in items %}
+        <li>{{item}}</li>
+        {% endfor %}
+       </ul>
+       <div class="contact">
+        <h3><a href="me.html">Strona główna</a></h3>
+      </div>
+    <div class="send_message">
+      <h3>Wyślij wiadomość</h3>
+      <form action="Sumbit">
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      </form>
+    </div>
+      <div class="btn_frame">
+        <a href="" class="btn" method="post" >Wyślij</a>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
+</body>
+</html>
