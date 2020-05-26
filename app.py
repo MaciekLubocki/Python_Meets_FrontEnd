@@ -2,7 +2,6 @@ from flask import Flask
 from flask import render_template
 from flask import request
 from flask import redirect
-import sys
 app = Flask(__name__)
 
 @app.route('/mypage/me.html', methods=['GET'])
@@ -21,7 +20,7 @@ def message_contact_page():
    elif request.method == 'POST':
        print("We received POST")
        print(request.form)
-       return redirect("/")
+       return redirect("/mypage/contact.html")
 
    if __name__ == '__main__':
       app.run()

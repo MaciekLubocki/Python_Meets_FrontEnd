@@ -60,17 +60,17 @@ background-color: #fde400;
   margin:1rem 0rem ;
 }
 
-.btn {
-padding:.5rem 1rem;
-background-color: #fde400;
-border-radius: 20px;
+
+input[type=submit]  { 
+  padding: .5rem 1rem;
+  background-color: #fde400;
+  border-radius: 20px;
 }
 
-.btn:hover {
-  padding:.5rem 1rem;
+input[type=submit]:hover {
+  padding: .5rem 1rem;
   background-color: #ffae00;
   color: #493201;
-  animation: ;  
 }
   
 .text_inner {

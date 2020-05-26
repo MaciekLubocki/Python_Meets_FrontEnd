@@ -60,18 +60,37 @@ ul {
 .btn_frame {
   margin: 1rem 0rem;
 }
-
-
 input[type=submit]  { 
   padding: .5rem 1rem;
   background-color: #fde400;
   border-radius: 20px;
+  outline:none;
+  border: none;
+
 }
 
 input[type=submit]:hover {
   padding: .5rem 1rem;
   background-color: #ffae00;
   color: #493201;
+  outline:none;
+  border: none;
+}
+
+input[type=submit]:active  { 
+  padding: .5rem 1rem;
+  background-color: #fde400;
+  border-radius: 20px;
+  outline:none;
+  border: none;
+}
+
+input[type=submit]:focus  { 
+  padding: .5rem 1rem;
+  background-color: #fde400;
+  border-radius: 20px;
+  outline:none;
+  border: none;
 }
 
 .text_inner {

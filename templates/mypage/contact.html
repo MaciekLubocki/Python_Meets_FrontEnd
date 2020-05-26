@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  {% extends "parent.html" %}
-  {% block content %}
-</head>
-<body>
+{% extends "parent.html" %}
+{% block content %}
       <h1>Kontakt</h1>
       <ul>
         {% for item in items %}
@@ -14,18 +9,11 @@
        <div class="contact">
         <h3><a href="me.html">Strona główna</a></h3>
       </div>
-    <div class="send_message">
+    <div class="send_message" method="post">
       <h3>Wyślij wiadomość</h3>
-      <form action="Sumbit">
+      <form action="#" method="post">
       <textarea name="" id="" cols="30" rows="10"></textarea>
-      </form>
-    </div>
-      <div class="btn_frame">
-        <a href="" class="btn" method="post" >Wyślij</a>
-      </div>
-    </div>
-  </div>
-</main>
+      <br>
+      <input type="submit" value="Wyślij">
+    </form>
 {% endblock %}
-</body>
-</html>
