@@ -117,4 +117,4 @@ dist
 
 # python folder block
 .idea
-__pycache__
+__pycache__/
