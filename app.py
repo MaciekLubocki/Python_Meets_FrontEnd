@@ -23,5 +23,6 @@ def message_contact_page():
         print(request.form)
         return redirect("/mypage/contact.html")
 
-    if __name__ == '__main__':
-        app.run()
+
+if __name__ == '__main__':
+    app.run()
